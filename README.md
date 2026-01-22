@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Database
 |  |
 | ------- |
+| [0619-biggest-single-number](https://github.com/patlollasrignitha/Leetcode-Problems/tree/master/0619-biggest-single-number) |
 | [1661-average-time-of-process-per-machine](https://github.com/patlollasrignitha/Leetcode-Problems/tree/master/1661-average-time-of-process-per-machine) |
 | [1667-fix-names-in-a-table](https://github.com/patlollasrignitha/Leetcode-Problems/tree/master/1667-fix-names-in-a-table) |
 <!---LeetCode Topics End-->
