@@ -1,10 +1,7 @@
 # Write your MySQL query statement below
-select S.name 
-from SalesPerson S
-where not exists(
-    select 1
-    from Orders O
-    join Company C
-    on O.com_id=C.com_id
-    where O.sales_id=S.sales_id and C.name='RED'
+select name
+from SalesPerson
+where sales_id not in(
+    select sales_id from Orders
+    where com_id=(select com_id from Company where name='RED')
 );
